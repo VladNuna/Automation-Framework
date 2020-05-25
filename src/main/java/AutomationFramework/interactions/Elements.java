@@ -3,14 +3,15 @@ package AutomationFramework.interactions;
 import AutomationFramework.runner.WebDriverManager;
 import AutomationFramework.utils.Logger;
 import AutomationFramework.utils.Utils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.pagefactory.ByChained;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.awt.Dimension;
+import java.awt.*;
 import java.time.Duration;
 import java.util.Date;
 import java.util.List;
@@ -441,5 +442,86 @@ public class Elements {
         long elapsed = new Date().getTime() - dateTimeBeforeWaitForLoad.getTime();
         Logger.debug(String.format("Element displayed: %s. Found in %d milliseconds", by.toString(), elapsed));
         return true;
+    }
+
+
+
+    /**
+     * Uses the Robot class in order to move mouse cursor to the element
+     * regardless of the used screen resolution or browser header configuration
+     *
+     * @param selector          - element to move to/hover
+     * @throws Exception        - throws exception
+     */
+    public static void moveToElement(String selector)
+            throws Exception {
+        moveToElement(Elements.findElement(selector));
+    }
+
+    /**
+     * Uses the Robot class in order to move mouse cursor to the element
+     * regardless of the used screen resolution or browser header configuration
+     *
+     * @param locator           - element to move to/hover
+     * @throws Exception        - throws exception
+     */
+    public static void moveToElement(By locator)
+            throws Exception {
+        moveToElement(Elements.findElement(locator));
+    }
+
+    /**
+     * Uses the Robot class in order to move mouse cursor to the element
+     * regardless of the used screen resolution or browser header configuration
+     *
+     * @param element           - element to move to/hover
+     * @throws Exception        - throws exception
+     */
+    public static void moveToElement(WebElement element) throws Exception {
+        try {
+            Actions action = new Actions(WebDriverManager.getWebDriver());
+            action.moveToElement(element).build().perform();
+        }
+        catch (Exception ex) {
+            Logger.error(ex.getMessage());
+            Robot robot = new Robot();
+            //take screen resolution
+
+            Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+            int screenWidth = (int) screenSize.getWidth();
+            int screenHeight = (int) screenSize.getHeight();
+
+            robot.mouseMove(screenWidth / 2, screenHeight / 2);
+            //take webpage dimensions
+            int webpageWidth = ((Number) (((JavascriptExecutor) WebDriverManager.getWebDriver())
+                    .executeScript("return window.innerWidth"))).intValue();
+            int webpageHeight = ((Number) (((JavascriptExecutor) WebDriverManager.getWebDriver())
+                    .executeScript("return window.innerHeight"))).intValue();
+
+            //take only the x axis point to calculate the middle of the element
+            //browser header most likely to change, but not the horizontal part
+            //and Point will take x coord of the left side of the element not middle
+            int xMid = element.getSize().width / 2;
+
+            //get element location relative to the webpage (not screen)
+            Point coordinates = element.getLocation();
+
+            //calculate x and y based on screen resolution and webpage dimension
+            //then get to the middle of it
+            int coordinatesX = (screenWidth - webpageWidth) + coordinates.x + xMid;
+            int coordinatesY = (screenHeight - webpageHeight) + coordinates.y;
+
+            //tries 10 times to set the cursor at correct position
+            int tries = 10;
+            while (MouseInfo.getPointerInfo().getLocation().x != coordinatesX &&
+                    MouseInfo.getPointerInfo().getLocation().y != coordinatesY &&
+                    tries > 0) {
+                new Robot().mouseMove(0, 0);
+                Thread.sleep(1000);
+
+                new Robot().mouseMove(coordinatesX / 2, coordinatesY / 2);
+                tries--;
+            }
+        }
     }
 }

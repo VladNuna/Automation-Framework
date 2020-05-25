@@ -105,7 +105,7 @@ public class ElementUtils {
      * @param lastObject        - The last object provided
      * @param key               - the key used in getBy method
      * @param value             - the value same as above
-     * @param params            - optional parameters for
+     * @param params            - optional parameters for filtering/position
      * @return                  - return the actual webElement
      */
     private static WebElement getWebElement(Object lastObject, String key, String value, Object... params) {
@@ -132,7 +132,7 @@ public class ElementUtils {
      *
      * @param key                           - the key used in getBy method
      * @param value                         - the value same as above
-     * @return                              - the by
+     * @return                              - the by selector
      * @throws InvocationTargetException    - the invocation target exception
      * @throws IllegalAccessException       - the illegal access exception
      *

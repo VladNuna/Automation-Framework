@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81fa4bf3-c356-4ac6-8ab9-f03b8840b298" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestWebdriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Clicks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/ElementUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Elements.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/PageElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Wait.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/utils/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/Automation Framework.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestWebdriverClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/runner/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/runner/WebDriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Clicks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Clicks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/ElementUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/ElementUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Elements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/PageElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/PageElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Wait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Wait.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +32,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="-1267">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,41 +53,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="933">
-              <caret line="414" column="6" selection-start-line="414" selection-start-column="6" selection-end-line="415" selection-end-column="52" />
+            <state relative-caret-position="7155">
+              <caret line="477" column="32" selection-start-line="477" selection-start-column="32" selection-end-line="477" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/StaleElementReferenceException.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding>
-                <element signature="e#1273#1311#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="465">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -90,38 +71,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="122">
+              <caret line="233" column="73" selection-start-line="233" selection-start-column="73" selection-end-line="233" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Utils.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedCondition.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/exceptions/DriverNotInitializedException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="105">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -145,11 +105,18 @@
       <find>getWebDriver</find>
       <find>waitNoMsg</find>
       <find>NoSuchElementException</find>
-      <find>...</find>
       <find>Find the element on the web page using the provided By (By.xpath(&quot;element&quot;))</find>
       <find>params</find>
       <find>WebElement findElement(String locator, Predicate&lt;WebElement&gt; filter)</find>
       <find>isElementStale</find>
+      <find>wait(By by, ExpectedCondition condition, int timeout) {</find>
+      <find>condition</find>
+      <find>boolean waitForVisible(By by, boolean throwException)</find>
+      <find>clickAndRetry</find>
+      <find>boolean wait(By by, ExpectedCondition condition, boolean throwException, int timeout)</find>
+      <find>moveToElement</find>
+      <find>moveToAndClickOn(WebElement elementToMoveTo,</find>
+      <find>...</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,17 +128,19 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/appConfig.properties" />
         <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Logger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/GeneralEnums.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/runner/WebDriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestWebdriverClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/exceptions/DriverNotInitializedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/runner/MainRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Navigate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java" />
         <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java" />
       </list>
     </option>
   </component>
@@ -192,6 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,8 +242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,12 +308,15 @@
     <history-entry file="TestWebdriverClass_testWebdriverStart - 2020.05.14 at 16h 31m 21s.xml">
       <configuration name="TestWebdriverClass.testWebdriverStart" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestWebdriverClass_testWebdriverStart - 2020.05.25 at 11h 39m 17s.xml">
+      <configuration name="TestWebdriverClass.testWebdriverStart" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1826411" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.185836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,7 +325,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298647" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +333,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.23309053" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298647" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3298647" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32970297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -470,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/FluentWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/GeneralEnums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -543,43 +508,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/runner/MainRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="933">
-          <caret line="414" column="6" selection-start-line="414" selection-start-column="6" selection-end-line="415" selection-end-column="52" />
+        <state relative-caret-position="663">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Navigate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="115" column="11" lean-forward="true" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/FluentWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedCondition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="122">
+          <caret line="233" column="73" selection-start-line="233" selection-start-column="73" selection-end-line="233" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="465">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7155">
+          <caret line="477" column="32" selection-start-line="477" selection-start-column="32" selection-end-line="477" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1267">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
-            <element signature="e#1273#1311#1" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
