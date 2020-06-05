@@ -10,6 +10,10 @@
 
 package AutomationFramework.utils;
 
+
+/**
+ * Class responsible for logs across the framework.
+ */
 public abstract class Logger {
 
     public static final String ANSI_RESET       = "\u001B[0m";
@@ -52,6 +56,7 @@ public abstract class Logger {
     }
 
     /***
+     * Throws a new exception message based on provided string.
      *
      * @param message
      * @throws Exception throws exception if used

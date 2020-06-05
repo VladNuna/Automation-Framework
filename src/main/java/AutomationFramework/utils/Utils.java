@@ -1,5 +1,8 @@
 package AutomationFramework.utils;
 
+/**
+ * Class that store most common methods that will be applicable to the entire framework.
+ */
 public class Utils {
     /**
      * Sleeps for a given time

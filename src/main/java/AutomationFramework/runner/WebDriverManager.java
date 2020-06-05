@@ -1,8 +1,8 @@
 /**
  * Web Driver Manager class
  *
- * This class is respobsible for any web driver actions. Initializations, restart, open or close
- * Currently this supports only Chrome webdriver
+ * This class is responsible for any web driver actions. Initializations, restart, open or close
+ * Currently this supports only ChromeDriver
  *
  * @author Vlad Nuna
  * @date  14/May/2020
@@ -21,7 +21,7 @@ public class WebDriverManager {
 
     /***
      * Initialize the webDriver (for now we support only chromeDriver
-     * but in the future it is inntended to add support for other browsers.
+     * but in the future it is intended to add support for other browsers.
      */
     public static void startWebDriver() {
 

@@ -524,4 +524,28 @@ public class Elements {
             }
         }
     }
+
+
+    /**
+     * Gets the xpath of an WebElement
+     *
+     * @param elem          - WebElement to get the xpath from
+     * @return              - xpath as String
+     */
+    public static String getXpath(WebElement elem) {
+        String value = "";
+        String[] locators = elem.toString().split("->");
+        for (String s : locators) {
+            String newLocator = s.trim().replaceAll("^\\[+", "").replaceAll("]+$", "");
+            String[] parts = newLocator.split(": ");
+            value = parts[1];
+            int leftBracketsCount = value.length() - value.replace("[", "").length();
+            int rightBracketscount = value.length() - value.replace("]", "").length();
+            if (leftBracketsCount - rightBracketscount == 1) {
+                value = value + "]";
+            }
+        }
+
+        return value;
+    }
 }
