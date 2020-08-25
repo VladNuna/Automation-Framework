@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="81fa4bf3-c356-4ac6-8ab9-f03b8840b298" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/extensions/IEnumerableExtensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Dropdowns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/AFCustomAssets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Automation-Framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/TQA_TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AutomationFramework/runner/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/runner/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestWebdriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWebdriverClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/GeneralEnums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/GeneralEnums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/exceptions/DriverNotInitializedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/exceptions/DriverNotInitializedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Checkbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Checkbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Clicks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Clicks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/ElementUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/ElementUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Elements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/PageElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/PageElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Wait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/interactions/Wait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/runner/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/runner/WebDriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/utils/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/utils/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AutomationFramework/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AutomationFramework/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/appConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Automation Framework.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWebdriverClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestWebdriverClass.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,103 +56,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Dropdowns.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="142" column="6" lean-forward="true" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/utils/AFCustomAssets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestWebdriverClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/appConfig.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/GeneralEnums.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/runner/WebDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="529" column="38" lean-forward="true" selection-start-line="529" selection-start-column="7" selection-end-line="529" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -129,201 +63,81 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>stop</find>
-      <find>INFO: Detected dialect: W3C</find>
-      <find>WebDriver</find>
-      <find>elementLocators</find>
-      <find>waitUntilJSReady</find>
-      <find>getWebDriver</find>
-      <find>waitNoMsg</find>
-      <find>NoSuchElementException</find>
-      <find>Find the element on the web page using the provided By (By.xpath(&quot;element&quot;))</find>
-      <find>params</find>
-      <find>WebElement findElement(String locator, Predicate&lt;WebElement&gt; filter)</find>
-      <find>isElementStale</find>
-      <find>wait(By by, ExpectedCondition condition, int timeout) {</find>
-      <find>boolean waitForVisible(By by, boolean throwException)</find>
-      <find>boolean wait(By by, ExpectedCondition condition, boolean throwException, int timeout)</find>
-      <find>moveToAndClickOn(WebElement elementToMoveTo,</find>
-      <find>...</find>
-      <find>moveToElement</find>
-      <find>clickAndRetry</find>
-      <find>element</find>
-      <find>condition</find>
-      <find>PageElement</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/GeneralEnums.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestWebdriverClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/exceptions/DriverNotInitializedException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/runner/MainRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Navigate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Checkbox.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/appConfig.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/AFCustomAssets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/extensions/IEnumerableExtensions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Dropdowns.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/runner/WebDriverManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Logger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Utils.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
-  </component>
+  <component name="ProjectId" id="1ffjUpKoP3QAIW1W0B0wN2WeFWR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="interactions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Automation Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Automation Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.side.proportion" value="0.27586207" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="TestWebdriverClass.testWebdriverStart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation Framework" />
+  <component name="RunManager" selected="TestNG.TestWebdriverClass">
+    <configuration name="TestWebdriverClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Framework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestWebdriverClass" />
-      <option name="METHOD_NAME" value="testWebdriverStart" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebdriverClass.checkTroubleSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebdriverClass" />
+      <option name="METHOD_NAME" value="checkTroubleSignIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebdriverClass.clickOnCheckboxAndCheckIfInputsAreVisible" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebdriverClass" />
+      <option name="METHOD_NAME" value="clickOnCheckboxAndCheckIfInputsAreVisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebdriverClass.clickOnSignInWithGoodUserAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebdriverClass" />
+      <option name="METHOD_NAME" value="clickOnSignInWithGoodUserAndPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebdriverClass.testingNow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebdriverClass" />
+      <option name="METHOD_NAME" value="testingNow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -333,7 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestWebdriverClass.testWebdriverStart" />
+        <item itemvalue="TestNG.TestWebdriverClass" />
+        <item itemvalue="TestNG.TestWebdriverClass.clickOnCheckboxAndCheckIfInputsAreVisible" />
+        <item itemvalue="TestNG.TestWebdriverClass.testingNow" />
+        <item itemvalue="TestNG.TestWebdriverClass.clickOnSignInWithGoodUserAndPassword" />
+        <item itemvalue="TestNG.TestWebdriverClass.checkTroubleSignIn" />
       </list>
     </recent_temporary>
   </component>
@@ -350,412 +168,114 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestWebdriverClass_testWebdriverStart - 2020.05.14 at 16h 23m 48s.xml">
-      <configuration name="TestWebdriverClass.testWebdriverStart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWebdriverClass_testWebdriverStart - 2020.05.14 at 16h 27m 44s.xml">
-      <configuration name="TestWebdriverClass.testWebdriverStart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWebdriverClass_testWebdriverStart - 2020.05.14 at 16h 28m 39s.xml">
-      <configuration name="TestWebdriverClass.testWebdriverStart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWebdriverClass_testWebdriverStart - 2020.05.14 at 16h 31m 21s.xml">
-      <configuration name="TestWebdriverClass.testWebdriverStart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWebdriverClass_testWebdriverStart - 2020.05.25 at 11h 39m 17s.xml">
-      <configuration name="TestWebdriverClass.testWebdriverStart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWebdriverClass_testWebdriverStart - 2020.05.25 at 16h 00m 05s.xml">
-      <configuration name="TestWebdriverClass.testWebdriverStart" configurationId="TestNG" />
-    </history-entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20340788" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23309053" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298647" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32970297" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24973376" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3298647" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.23309053" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3298647" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3298647" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
+  <component name="WindowStateProjectService">
+    <state x="384" y="126" key="#Project_Structure" timestamp="1596616293763">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="384" y="126" key="#Project_Structure/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596616293763" />
+    <state x="684" y="330" key="#Web_Browsers" timestamp="1596617485650">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="684" y="330" key="#Web_Browsers/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596617485650" />
+    <state x="2501" y="331" key="#com.intellij.ide.util.MemberChooser" timestamp="1598341336751">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state x="2501" y="331" key="#com.intellij.ide.util.MemberChooser/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598341336751" />
+    <state width="1750" height="270" key="GridCell.Tab.0.bottom" timestamp="1598344967168">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="336" key="GridCell.Tab.0.bottom/1792.108.1920.1003/-1920.121.1920.1057/0.23.1792.1097@-1920.121.1920.1057" timestamp="1596626428304" />
+    <state width="1750" height="336" key="GridCell.Tab.0.bottom/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596629520041" />
+    <state width="1750" height="270" key="GridCell.Tab.0.bottom/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598344967168" />
+    <state width="1750" height="271" key="GridCell.Tab.0.bottom/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596640025447" />
+    <state width="1750" height="352" key="GridCell.Tab.0.bottom/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596624909314" />
+    <state width="1750" height="270" key="GridCell.Tab.0.center" timestamp="1598344967167">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="336" key="GridCell.Tab.0.center/1792.108.1920.1003/-1920.121.1920.1057/0.23.1792.1097@-1920.121.1920.1057" timestamp="1596626428302" />
+    <state width="1750" height="336" key="GridCell.Tab.0.center/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596629520040" />
+    <state width="1750" height="270" key="GridCell.Tab.0.center/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598344967167" />
+    <state width="1750" height="271" key="GridCell.Tab.0.center/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596640025447" />
+    <state width="1750" height="352" key="GridCell.Tab.0.center/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596624909313" />
+    <state width="1750" height="270" key="GridCell.Tab.0.left" timestamp="1598344967167">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="336" key="GridCell.Tab.0.left/1792.108.1920.1003/-1920.121.1920.1057/0.23.1792.1097@-1920.121.1920.1057" timestamp="1596626428302" />
+    <state width="1750" height="336" key="GridCell.Tab.0.left/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596629520039" />
+    <state width="1750" height="270" key="GridCell.Tab.0.left/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598344967167" />
+    <state width="1750" height="271" key="GridCell.Tab.0.left/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596640025447" />
+    <state width="1750" height="352" key="GridCell.Tab.0.left/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596624909312" />
+    <state width="1750" height="270" key="GridCell.Tab.0.right" timestamp="1598344967168">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="336" key="GridCell.Tab.0.right/1792.108.1920.1003/-1920.121.1920.1057/0.23.1792.1097@-1920.121.1920.1057" timestamp="1596626428303" />
+    <state width="1750" height="336" key="GridCell.Tab.0.right/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596629520041" />
+    <state width="1750" height="270" key="GridCell.Tab.0.right/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598344967168" />
+    <state width="1750" height="271" key="GridCell.Tab.0.right/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596640025447" />
+    <state width="1750" height="352" key="GridCell.Tab.0.right/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596624909314" />
+    <state width="1750" height="335" key="GridCell.Tab.1.bottom" timestamp="1598343578948">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="336" key="GridCell.Tab.1.bottom/1792.108.1920.1003/-1920.121.1920.1057/0.23.1792.1097@-1920.121.1920.1057" timestamp="1596626428207" />
+    <state width="1750" height="336" key="GridCell.Tab.1.bottom/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596629519907" />
+    <state width="1750" height="335" key="GridCell.Tab.1.bottom/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598343578948" />
+    <state width="1750" height="336" key="GridCell.Tab.1.bottom/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596640025442" />
+    <state width="1750" height="352" key="GridCell.Tab.1.bottom/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596624909101" />
+    <state width="1750" height="335" key="GridCell.Tab.1.center" timestamp="1598343578947">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="336" key="GridCell.Tab.1.center/1792.108.1920.1003/-1920.121.1920.1057/0.23.1792.1097@-1920.121.1920.1057" timestamp="1596626428207" />
+    <state width="1750" height="336" key="GridCell.Tab.1.center/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596629519907" />
+    <state width="1750" height="335" key="GridCell.Tab.1.center/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598343578947" />
+    <state width="1750" height="336" key="GridCell.Tab.1.center/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596640025442" />
+    <state width="1750" height="352" key="GridCell.Tab.1.center/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596624909100" />
+    <state width="1750" height="335" key="GridCell.Tab.1.left" timestamp="1598343578947">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="336" key="GridCell.Tab.1.left/1792.108.1920.1003/-1920.121.1920.1057/0.23.1792.1097@-1920.121.1920.1057" timestamp="1596626428206" />
+    <state width="1750" height="336" key="GridCell.Tab.1.left/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596629519906" />
+    <state width="1750" height="335" key="GridCell.Tab.1.left/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598343578947" />
+    <state width="1750" height="336" key="GridCell.Tab.1.left/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596640025441" />
+    <state width="1750" height="352" key="GridCell.Tab.1.left/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596624909100" />
+    <state width="1750" height="335" key="GridCell.Tab.1.right" timestamp="1598343578948">
+      <screen x="1792" y="108" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="336" key="GridCell.Tab.1.right/1792.108.1920.1003/-1920.121.1920.1057/0.23.1792.1097@-1920.121.1920.1057" timestamp="1596626428207" />
+    <state width="1750" height="336" key="GridCell.Tab.1.right/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596629519907" />
+    <state width="1750" height="335" key="GridCell.Tab.1.right/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1041@1792.108.1920.1057" timestamp="1598343578948" />
+    <state width="1750" height="336" key="GridCell.Tab.1.right/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596640025442" />
+    <state width="1750" height="352" key="GridCell.Tab.1.right/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596624909101" />
+    <state x="397" y="191" key="SettingsEditor" timestamp="1596624001907">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="397" y="191" key="SettingsEditor/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@0.23.1792.1097" timestamp="1596624001907" />
+    <state x="397" y="183" key="SettingsEditor/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596616250884" />
+    <state x="-1576" y="196" width="641" height="708" key="find.popup" timestamp="1596626793310">
+      <screen x="-1920" y="121" width="1920" height="1003" />
+    </state>
+    <state x="-1576" y="196" width="641" height="708" key="find.popup/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@-1920.121.1920.1003" timestamp="1596626793310" />
+    <state x="321" y="105" width="598" height="774" key="find.popup/1792.108.1920.1057/-1920.121.1920.1003/0.23.1792.1097@0.23.1792.1097" timestamp="1596623326863" />
+    <state x="-1576" y="200" width="641" height="746" key="find.popup/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596626749402" />
+    <state x="365" y="110" width="598" height="735" key="find.popup/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@0.23.1792.1043" timestamp="1596622946021" />
+    <state x="-1311" y="342" width="670" height="676" key="search.everywhere.popup" timestamp="1596626130976">
+      <screen x="-1920" y="121" width="1920" height="1057" />
+    </state>
+    <state x="-1311" y="342" width="670" height="676" key="search.everywhere.popup/1792.108.1920.1057/-1920.121.1920.1057/0.23.1792.1043@-1920.121.1920.1057" timestamp="1596626130976" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Automation Framework.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="268" column="11" selection-start-line="268" selection-start-column="11" selection-end-line="268" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/SuppressWarnings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1792">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/Duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="222" column="27" selection-start-line="222" selection-start-column="27" selection-end-line="222" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="881" column="16" selection-start-line="881" selection-start-column="16" selection-end-line="881" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/StaleElementReferenceException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/exceptions/DriverNotInitializedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/runner/MainRunner.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Navigate.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/FluentWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedCondition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/ElementUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Clicks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Checkbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Wait.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3495">
-          <caret line="233" column="73" selection-start-line="233" selection-start-column="73" selection-end-line="233" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/extensions/IEnumerableExtensions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Elements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="529" column="38" lean-forward="true" selection-start-line="529" selection-start-column="7" selection-end-line="529" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/Dropdowns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="142" column="6" lean-forward="true" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/runner/WebDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/utils/AFCustomAssets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/interactions/PageElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AutomationFramework/GeneralEnums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestWebdriverClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>JavaFX-11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Automation Framework</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Automation_Framework$TestWebdriverClass.ic" NAME="TestWebdriverClass Coverage Results" MODIFIED="1596629682492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Automation_Framework$TestWebdriverClass_testWebdriverStart.ic" NAME="TestWebdriverClass.testWebdriverStart Coverage Results" MODIFIED="1596617920904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

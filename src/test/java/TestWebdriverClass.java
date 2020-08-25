@@ -1,19 +1,27 @@
 import AutomationFramework.runner.WebDriverManager;
-import AutomationFramework.utils.Logger;
+import Pages.TQA_TextBox;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestWebdriverClass {
+    TQA_TextBox elementsPage;
+
+    @BeforeMethod
+    public void beforeSuite() {
+        WebDriverManager.startWebDriver();
+        WebDriverManager.openURLPage("https://demoqa.com/elements");
+        elementsPage = PageFactory.initElements(WebDriverManager.getWebDriver(), TQA_TextBox.class);
+    }
 
     @Test
-    public void testWebdriverStart(){
-        WebDriverManager.startWebDriver();
-        System.out.println(WebDriverManager.getCurrentUrl());
-        WebDriverManager.resetDriver(true);
+    public void clickOnCheckboxAndCheckIfInputsAreVisible() throws Exception{
+        elementsPage.clickOnCheckboxAndCheckIfInputsAreVisible();
+    }
 
-        Logger.debug("debug");
-        Logger.error("Error");
-        Logger.info("Info");
-        Logger.success("Scuccess");
-        Logger.warn("warn");
+    @AfterSuite
+    public void closeWebDriver() throws Exception {
+        WebDriverManager.stop();
     }
 }

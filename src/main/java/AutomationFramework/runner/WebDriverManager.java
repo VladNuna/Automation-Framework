@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebDriverManager {
+    private static final String userDirProperty = System.getProperty("user.dir");
     private static WebDriver   driver;
 
     /***
@@ -25,6 +26,7 @@ public class WebDriverManager {
      */
     public static void startWebDriver() {
 
+        System.setProperty("webdriver.chrome.driver", userDirProperty + "/src/main/resources/chromedriver");
         // If driver is not null, close it before we instantiate a new webDriver
         if (driver != null) {
             driver.quit();
@@ -44,6 +46,18 @@ public class WebDriverManager {
                 Logger.error("Failed initialized webdriver: retry" + i + ":" + ex.getMessage());
                 Utils.threadSleep(2000, null);
             }
+        }
+    }
+
+    /***
+     * Open a specific url page provided as string
+     * @param url  - url link as string
+     */
+    public static void openURLPage(String url){
+        try {
+            driver.get(url);
+        }catch (Exception ex){
+            Logger.error("Failed to open the following url: "+url);
         }
     }
 
